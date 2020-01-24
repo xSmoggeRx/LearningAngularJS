@@ -35,4 +35,8 @@ export class SumatorioComponent implements OnInit {
     .catch((error) => console.log('catch', error));
   }
 
+  getUn4() {
+    return 4;
+  }
+
 }

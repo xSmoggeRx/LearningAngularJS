@@ -4,6 +4,7 @@ import { BotonPapeleraComponent } from './botonpapelera/botonpapelera.component'
 import { AppComponent } from './app.component';
 import { DemoAppComponentComponent } from './demo-app-component/demo-app-component.component';
 import { SumatorioComponent } from './sumatorio/sumatorio.component';
+import { NotasComponent } from './notas/notas.component';
 
 
 const routes: Routes = [
@@ -15,7 +16,10 @@ const routes: Routes = [
   },
   {
     path: 'sumatorio', component: SumatorioComponent, pathMatch: 'full'
-  }
+  },
+  {
+    path: 'notas', component: NotasComponent, pathMatch: 'full'
+  },
 ];
 
 @NgModule({
