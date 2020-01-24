@@ -1,4 +1,4 @@
-import { Component } from '@angular/core';
+import { Component, OnInit } from '@angular/core';
 
 @Component({
   selector: 'app-botonpapelera',
@@ -6,8 +6,17 @@ import { Component } from '@angular/core';
   styleUrls: ['./botonpapelera.component.css']
 })
 
-export class BotonPapeleraComponent  {
+export class BotonPapeleraComponent implements OnInit {
 
-  constructor() { }
+  private testNumber: number;
+  constructor() {
+    this.testNumber = 5;
+    console.log(this.testNumber);
+  }
+
+  ngOnInit() {
+    this.testNumber++;
+    console.log(this.testNumber + ' onInit!');
+  }
 
 }

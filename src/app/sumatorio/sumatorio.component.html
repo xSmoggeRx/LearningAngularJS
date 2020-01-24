@@ -1,0 +1,27 @@
+<style>
+  .containerSumatorio {
+    display: flex;
+    flex: 1;
+    flex-direction: row;
+    padding: 12px;
+    background-color: grey;
+  }
+
+  button {
+    height: 100px;
+    width: 100px;
+    background-color: steelblue;
+    border-radius: 10px;
+  }
+
+  p {
+    font-size: 24;
+    color: thistle;
+  }
+</style>
+<div class="containerSumatorio">
+  <button (click)="restarValor()">-</button>
+  <p>{{ valorActual }}</p>
+  <button (click)="sumarValor()">+</button>
+  <button (click)="pruebaFetch()">fetchTesting</button>
+</div>

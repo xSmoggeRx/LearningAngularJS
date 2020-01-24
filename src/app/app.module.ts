@@ -7,6 +7,7 @@ import { NavbarComponent } from './navbar/navbar.component';
 import { BotonPapeleraComponent } from './botonpapelera/botonpapelera.component';
 import { DemoAppComponentComponent } from './demo-app-component/demo-app-component.component';
 import { BrowserAnimationsModule } from '@angular/platform-browser/animations';
+import { SumatorioComponent } from './sumatorio/sumatorio.component';
 
 @NgModule({
   declarations: [
@@ -14,6 +15,7 @@ import { BrowserAnimationsModule } from '@angular/platform-browser/animations';
     NavbarComponent,
     BotonPapeleraComponent,
     DemoAppComponentComponent,
+    SumatorioComponent,
   ],
   imports: [
     BrowserModule,
