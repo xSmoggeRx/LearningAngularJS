@@ -17,7 +17,8 @@ export class NotasComponent implements OnInit {
   ngOnInit() {
   }
 
-  createNote(){
+  createNote() {
     this.notes.push(this.note);
+    this.note = '';
   }
 }

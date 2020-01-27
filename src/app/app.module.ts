@@ -10,6 +10,8 @@ import { DemoAppComponentComponent } from './demo-app-component/demo-app-compone
 import { BrowserAnimationsModule } from '@angular/platform-browser/animations';
 import { SumatorioComponent } from './sumatorio/sumatorio.component';
 import { NotasComponent } from './notas/notas.component';
+import { HttpClientModule } from '@angular/common/http';
+
 
 @NgModule({
   declarations: [
@@ -24,7 +26,8 @@ import { NotasComponent } from './notas/notas.component';
     BrowserModule,
     AppRoutingModule,
     BrowserAnimationsModule,
-    FormsModule
+    FormsModule,
+    HttpClientModule,
   ],
   providers: [],
   bootstrap: [AppComponent]
